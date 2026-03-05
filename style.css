@@ -657,43 +657,41 @@ footer{
         margin-left: -50px;
 
     }
-     .im-1{
+    .im-1{
         width: 70px;
         height: 100px; ;
-        top: 220px;
-        left: 30px;
-    
+        
     }
     .im-2{
         width: 65px;
         height: 100px;
     }
     .im-3{
-        width: 100px;
-        height: 50px;
+        width: 130px;
+        height: 78px;
     }
     
     .im-4{
-        width: 80px;
-        height: 50px;;
+        width: 86px;
+        height: 150px;;
     }
     .im-5{
-        width: 60px;
-        height: 60px;;
+        width: 100px;
+        height: 100px;;
     }
     .im-6{
-        width: 50px;
-        height: 80px;
+        width: 110px;
+        height: 78px;
     }
     .im-7{
         width: 60px;
-        height: 80px;;
+        height: 100px;;
         
     }
     
     .im-8{
-        width: 60px;
-        height: 60px;
+        width: 100px;
+        height: 100px;
     }
     .more-about{
         flex-wrap: wrap;
@@ -726,7 +724,7 @@ footer{
         height: 500px;
     }
     .more{
-        margin-top: 50px;
+        margin-top: 20px;
     }
     .more-about-3-frame{
         width: 320px;
@@ -823,14 +821,14 @@ footer{
     
     
 
-    .im-1 { top: 20px; left: 70px; }
+   .im-1 { top: 20px; left: 70px; }
     .im-2 { top: 80px; left: 20px; }
     .im-3 { bottom: 150px; left: 20px; }
     
     
-    .im-4 { top: 350px; right: 80px; }
+    .im-4 { top: 370px; right: 80px; }
     .im-5 { top: 300px; right: 40px; }
-    .im-6 { bottom: 100px; left: 90px; }
+    .im-6 { bottom: 90px; left: 80px; }
     
     
     .im-7 { top: 50px; left: 330px;  }
@@ -839,7 +837,10 @@ footer{
     .background{
         margin-top: 70px;
     }
-
+    .d1 img{
+        width: 340px;
+    }
 }
+
 
 
