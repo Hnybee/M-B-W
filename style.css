@@ -700,10 +700,6 @@ footer{
         gap: 1px;
         
     }
-    .inside{
-        margin-left: -10px;
-        width: 300px;
-    }
     .sound{
         flex-wrap: wrap;
         align-items: center;
@@ -817,7 +813,7 @@ footer{
         font-size: 1.8rem;
         line-height: 1.4;
         font-weight: 400;
-        padding-bottom: 80px;
+        padding-bottom: 50px;
     }
     
     
@@ -841,6 +837,7 @@ footer{
         width: 340px;
     }
 }
+
 
 
 
