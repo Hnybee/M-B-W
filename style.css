@@ -79,9 +79,9 @@ nav{
 .im-5 { top: 200px; right: 40px; }
 .im-6 { bottom: 70px; right: 120px; }
 
-/* TOP ACCENTS (closer to text) */
-.im-7 { top: 10px; left: 45%; transform: translateX(-50%); }
-.im-8 { top: 120px; right: 45%; transform: translateX(50%); }
+/* Top accent */
+.im-7 { top: 10px; left: 550px;  }
+.im-8 { top: 120px; right: 550px; }
 .ham-menu{
     display: none; /* stays hidden on larger screens */
     position: fixed;
@@ -684,7 +684,7 @@ footer{
         height: 55px;
     }
     .im-7{
-        width: 60px;
+        width: 75px;
         height: 100px;;
         
     }
@@ -831,8 +831,8 @@ footer{
     .im-6 { bottom: 120px; left: 80px; }
     
     
-    .im-7 { top: 50px; left: 330px;  }
-    .im-8 { top: 120px; right: 85px;  }
+    .im-7 { top: 50px; left: 290px;  }
+    .im-8 { top: 120px; right: 90px;  }
 
     .background{
         margin-top: 70px;
@@ -841,6 +841,7 @@ footer{
         width: 340px;
     }
 }
+
 
 
 
