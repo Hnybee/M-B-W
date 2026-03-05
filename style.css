@@ -821,14 +821,14 @@ footer{
     
     
 
-    .im-1 { top: 20px; left: 70px; }
+     .im-1 { top: 20px; left: 70px; }
     .im-2 { top: 80px; left: 20px; }
     .im-3 { bottom: 150px; left: 20px; }
     
     
-    .im-4 { top: 370px; right: 60px; }
-    .im-5 { top: 300px; right: 13px; }
-    .im-6 { bottom: 120px; left: 80px; }}
+    .im-4 { top: 370px; right: 30px; }
+    .im-5 { top: 300px; left: 330px; }
+    .im-6 { bottom: 120px; left: 80px; }
     
     
     .im-7 { top: 50px; left: 290px;  }
@@ -841,6 +841,7 @@ footer{
         width: 340px;
     }
 }
+
 
 
 
