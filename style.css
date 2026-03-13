@@ -649,7 +649,7 @@ footer{
         padding-left: 12px;
     }
     .head{
-        font-size: 2000px;
+        font-size: 20px;
         font-weight: 600;
     }
     .nav-item1{
@@ -784,7 +784,7 @@ footer{
         height: 310px;
     }
     .d1{
-        gap: 10px
+        gap: 5px
     }
     .book-1 p{
         font-size: 15px;
@@ -895,6 +895,7 @@ footer{
     }
 
 }
+
 
 
 
