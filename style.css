@@ -15,7 +15,7 @@ header{
     padding-top: 20px;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 10px
 }
 
 .head{
@@ -59,10 +59,11 @@ nav{
 
 .hero-section h1 {
     color: white;
-    font-size: 2.8rem;
-    max-width: 700px;
+    font-size: 4rem;
+    /* max-width: 700px; */
     line-height: 1.4;
     z-index: 2;
+    font-weight: 450;
 }
 
 .im {
@@ -79,7 +80,7 @@ nav{
 .im-5 { top: 200px; right: 40px; }
 .im-6 { bottom: 70px; right: 120px; }
 
-/* Top accent */
+/* TOP ACCENTS (closer to text) */
 .im-7 { top: 10px; left: 550px;  }
 .im-8 { top: 120px; right: 550px; }
 .ham-menu{
@@ -127,7 +128,7 @@ nav{
 .im-1{
     width: 120px;
     height: 170px; 
-    background-image: url(Image/image-8.jpeg);
+    background-image: url(image/image-8.jpeg);
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
@@ -144,7 +145,7 @@ nav{
 .im-2{
     width: 90px;
     height: 116px;
-    background-image: url(Image/album-cover-1.jpeg);
+    background-image: url(image/album-cover-1.jpeg);
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
@@ -153,7 +154,7 @@ nav{
 .im-3{
     width: 177px;
     height: 100px;
-    background-image: url(Image/image-5.jpeg);
+    background-image: url(image/image-5.jpeg);
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
@@ -163,17 +164,16 @@ nav{
 .im-4{
     width: 150px;
     height: 90px;
-    background-image: url(Image/album.jpeg);
+    background-image: url(image/album.jpeg);
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
-    
     border-radius: 5px;
 }
 .im-5{
     width: 140px;
     height: 140px; 
-    background-image: url(Image/kim.jpeg);
+    background-image: url(image/kim.jpeg);
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
@@ -182,7 +182,7 @@ nav{
 .im-6{
     width: 115px;
     height: 140px;
-    background-image: url(Image/image-7.jpeg);
+    background-image: url(image/image-7.jpeg);
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
@@ -192,7 +192,7 @@ nav{
 .im-7{
     width: 100px;
     height: 150px;;
-    background-image: url(Image/image-9.jpeg);
+    background-image: url(image/image-9.jpeg);
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
@@ -202,7 +202,7 @@ nav{
 .im-8{
     width: 115px;
     height: 130px;
-    background-image: url(Image/image-10.jpeg);
+    background-image: url(image/image-10.jpeg);
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
@@ -211,31 +211,45 @@ nav{
 
 
 /* calm fade in */
-@keyframes calmFade {
+/* @keyframes calmFade {
     0% {
         opacity: 0;    
     }
     100% {
         opacity: 1;    
     }
-}
+} */
 
-.im-1, .im-2, .im-3, .im-4, .im-5, .im-6, .im-7, .im-8 {
+/* .im-1, .im-2, .im-3, .im-4, .im-5, .im-6, .im-7, .im-8 {
     animation-name: calmFade;
     animation-duration: 2s;         
     animation-fill-mode: forwards;  
     animation-timing-function: ease; 
-}
+} */
 
 /* Delay for animation */
-.im-1 { animation-delay: 0.5s; }
+/* .im-1 { animation-delay: 0.5s; }
 .im-2 { animation-delay: 1s; }
 .im-3 { animation-delay: 1.5s; }
 .im-4 { animation-delay: 2s; }
 .im-5 { animation-delay: 2.5s; }
 .im-6 { animation-delay: 3s; }
 .im-7 { animation-delay: 3.5s; }
-.im-8 { animation-delay: 4s; }
+.im-8 { animation-delay: 4s; } */
+
+@keyframes calmFade {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.im-1, .im-2, .im-3, .im-4, .im-5, .im-6, .im-7, .im-8 {
+    opacity: 0;
+    animation: calmFade 2.5s ease forwards;
+}
 .image-2 {
     display: flex;
 }
@@ -321,7 +335,7 @@ p {
     margin-top: 20px;
 }
 .sound{
-    width: 1200px;
+    max-width: 1200px;
     height: 560px;
     background-color: #202020;
     display: flex;
@@ -357,7 +371,7 @@ p {
 }
 
 .background-items{
-    width: 1200px;
+    max-width: 1200px;
     display: flex;
     flex-direction: column;
 }
@@ -522,7 +536,7 @@ p {
     flex-direction: column;
     gap: 5px;
 } */
-.book p{
+.book-p{
     font-size: 40px;
     font-weight: 600;
 }
@@ -537,9 +551,15 @@ p {
 }
 footer{
     width: 500px;
-    height: 400px;
     margin-left: 100px;
     margin-top: 100px;
+}
+.rights{
+    font-weight: 400;
+    color: #666;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 90px;
 }
 .footer-links{
     display: flex;
@@ -572,16 +592,6 @@ footer{
     height: 35px;
     border-radius: 50%;
     background-image: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.f4{
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
-    background: #fe8c00; /* Fallback color */
-    background: linear-gradient(to right, #fe8c00, #f83600);;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -619,7 +629,15 @@ footer{
     padding-top: 10px;
     border-bottom: 1px solid white;
 }
-@media (max-width:700px) {
+/* .rights{
+    font-weight: 400;
+    color: gray;
+    text-align: center;
+    font-size: 12px;
+    margin-top: -200px;
+    
+} */
+@media (max-width:700px){
     body,html{
         overflow-x: hidden;
     }
@@ -637,14 +655,14 @@ footer{
     .nav-item1{
         display: none;
     }
-    .nav-item2 {
+    /* .nav-item2 {
         display: block; 
-    }
+    } */
 
-    .ham-menu {
+    /* .ham-menu {
         display: block; 
         min-height: 200px;
-    }
+    } */
     .center-text p{
         font-size: 20px;
         line-height: 1.1;
@@ -657,7 +675,7 @@ footer{
         margin-left: -50px;
 
     }
-   .im-1{
+    .im-1{
         width: 70px;
         height: 100px; ;
         
@@ -673,7 +691,7 @@ footer{
     
     .im-4{
         width: 90px;
-        height: 120px;;
+        height: 119px;;
     }
     .im-5{
         width: 70px;
@@ -700,6 +718,10 @@ footer{
         gap: 1px;
         
     }
+    .inside{
+        margin-left: -10px;
+        width: 300px;
+    }
     .sound{
         flex-wrap: wrap;
         align-items: center;
@@ -720,7 +742,7 @@ footer{
         height: 500px;
     }
     .more{
-        margin-top: 20px;
+        margin-top: 10px;
     }
     .more-about-3-frame{
         width: 320px;
@@ -758,14 +780,14 @@ footer{
         justify-content: center;
     }
     .d1 img{
-        width: 350px;
+        width: 310px;
         height: 310px;
     }
     .book-1 p{
         font-size: 15px;
         font-weight: 370;
         line-height: 1.7;
-        padding-right: 100px;
+        padding-right: 120px;
     }
     footer{
         margin-left: 30px;
@@ -780,7 +802,7 @@ footer{
         font-size: 1.6rem;
         font-weight: 700;
     }
-    .ham-menu {
+    /* .ham-menu {
         display: block;
         position: fixed;
         top: 0px;
@@ -791,7 +813,7 @@ footer{
         width: 100%;
         transform: translateX(100%);
         transition: .5s;
-    }
+    } */
     .picture-box{
         margin: 200px;
     }
@@ -810,14 +832,27 @@ footer{
     
     .hero-section h1 {
         color: white;
-        font-size: 1.7rem;
+        font-size: 1.8rem;
         line-height: 1.4;
         font-weight: 400;
         margin-bottom: 40px;
-        /* padding-bottom: 40px; */
+        
     }
     
     
+
+    /* .im-1 { top: 20px; left: 70px; }
+    .im-2 { top: 80px; left: 20px; }
+    .im-3 { bottom: 150px; left: 20px; }
+    
+    
+    .im-4 { top: 370px; right: 30px; }
+    .im-5 { top: 300px; left: 290px; }
+    .im-6 { bottom: 120px; left: 80px; }
+    
+    
+    .im-7 { top: 50px; left: 290px;  }
+    .im-8 { top: 120px; right: 90px;  } */
 
     .im-1 { top: 20px; left: 70px; }
     .im-2 { top: 80px; left: 20px; }
@@ -830,14 +865,35 @@ footer{
 
     .im-7 { top: 10px; left: 300px; }
     .im-8 { top: 110px; left: 230px; }
+    
+    /* .im-7 { top: 50px; left: 290px;  }
+    .im-8 { top: 120px; right: 90px;  } */
+
 
     .background{
         margin-top: 70px;
     }
-    .d1 img{
-        width: 340px;
+    .co-1{
+        width: 170px;
+        height: 55px;
     }
+    .co-1 p{
+        font-size: 1rem;
+    }
+    .co-2{
+        width: 20px;
+        height: 20px;
+    }
+    .co-2 .fa-solid{
+        font-size: 0.6rem;
+    }
+    .book-p{
+        font-size: 26px;
+    }
+
 }
+
+
 
 
 
