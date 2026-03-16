@@ -537,7 +537,7 @@ p {
     gap: 5px;
 } */
 .book-p{
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 600;
 }
 .book-1{
@@ -895,6 +895,7 @@ footer{
     }
 
 }
+
 
 
 
