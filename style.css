@@ -631,7 +631,8 @@ footer{
         overflow-y: hidden;
     }
     header{
-        padding-left: 12px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
     .head h2{
         font-size: 25px;
@@ -817,7 +818,7 @@ footer{
     
     .hero-section h2 {
         color: white;
-        font-size: 1.3rem;
+        font-size: 1.4rem;
         line-height: 1.4;
         font-weight: 400;
         margin-bottom: 40px;
@@ -863,7 +864,7 @@ footer{
         height: 55px;
     }
     .co-1 p{
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
     .co-2{
         width: 20px;
