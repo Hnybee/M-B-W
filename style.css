@@ -318,7 +318,7 @@ p {
     font-weight: 100;
     
 }
-.singer h4{
+.singer h3{
 
     font-weight: 500;
 }
@@ -804,7 +804,7 @@ footer{
         margin: 200px;
     }
     .more-about-1{
-        width: 250px;
+        width: 300px;
     }
     .singer P{
         font-size: 15px;
